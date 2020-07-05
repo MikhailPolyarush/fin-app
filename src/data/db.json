@@ -1,0 +1,673 @@
+{
+    "CompanyUSA": [
+      {
+          "id": "ABBV",
+          "title": "AbbVie",
+          "sector": "pharmaceuticals",
+          "ideas": [
+            {
+              "id": 1,
+              "idea": "биофарма",
+              "divers": "Найдена вакцина от коронавируса",
+              "price": 2050,
+              "upSide": 3500,
+              "downSide": 1500,
+              "rating": 8
+            }
+          ],
+          "indicators" : [ 
+            {
+              "year" : 2012,
+              "totalShare": 0,
+              "divident": 0,
+              "Obligations": 23645,
+              "Capital": 3363,
+              "totalAssets" : 27008,
+              "revenue": 18380,
+              "netProfit": 5275,
+              "cashFlow": 6966
+            },
+            {
+              "year" : 2013,
+              "totalShare": 1604,
+              "divident": 1.593,
+              "Obligations": 24706,
+              "Capital": 4492,
+              "totalAssets" : 29198,
+              "revenue": 18790,
+              "netProfit": 4128,
+              "cashFlow": 5609
+            },
+            {
+              "year" : 2014,
+              "totalShare": 1610,
+              "divident": 1.653,
+              "Obligations": 25771,
+              "Capital": 1742,
+              "totalAssets" : 27513,
+              "revenue": 19960,
+              "netProfit": 1774,
+              "cashFlow": 4337
+            },
+            {
+              "year" : 2015,
+              "totalShare": 1637,
+              "divident": 2.012,
+              "Obligations": 49105,
+              "Capital": 3945,
+              "totalAssets" : 53050,
+              "revenue": 22859,
+              "netProfit": 5144,
+              "cashFlow": 7031
+            },
+            {
+              "year" : 2016,
+              "totalShare": 1631,
+              "divident": 2.279,
+              "Obligations": 61463,
+              "Capital": 4636,
+              "totalAssets" : 66099,
+              "revenue": 25648,
+              "netProfit": 5953,
+              "cashFlow": 8730
+            },
+            {
+              "year" : 2017,
+              "totalShare": 1603,
+              "divident": 2.562,
+              "Obligations": 65689,
+              "Capital": 5097,
+              "totalAssets" : 70786,
+              "revenue": 28216,
+              "netProfit": 5309,
+              "cashFlow": 9951
+            },
+            {
+              "year" : 2018,
+              "totalShare": 1546,
+              "divident": 3.609,
+              "Obligations": 67798,
+              "Capital": -8446,
+              "totalAssets" : 59352,
+              "revenue": 32753,
+              "netProfit": 5687,
+              "cashFlow": 14553
+            },
+            {
+              "year" : 2019,
+              "totalShare": 1484,
+              "divident": 4.29,
+              "Obligations": 97287,
+              "Capital": -8172,
+              "totalAssets" : 89115,
+              "revenue": 33266,
+              "netProfit": 7882,
+              "cashFlow": 14653
+            }
+          ]
+      },
+    {
+          "id": "AMZN",
+          "title": "Amazon",
+          "sector": "Communications",
+          "ideas": [
+            {
+  
+            }
+          ],
+          "indicators" : [ 
+            {
+              "year" : 2011,
+              "totalShare": 461,
+              "divident": 0,
+              "Obligations": 17521,
+              "Capital": 7751,
+              "totalAssets" : 25272,
+              "revenue": 48077,
+              "netProfit": 631,
+              "cashFlow": 2439
+            },
+            {
+              "year" : 2012,
+              "totalShare": 453,
+              "divident": 0,
+              "Obligations": 24363,
+              "Capital": 8192,
+              "totalAssets" : 32555,
+              "revenue": 61093,
+              "netProfit": -39,
+              "cashFlow": 2735
+            },
+            {
+              "year" : 2013,
+              "totalShare": 465,
+              "divident": 0,
+              "Obligations": 30413,
+              "Capital": 9746,
+              "totalAssets" : 40159,
+              "revenue": 74452,
+              "netProfit": 274,
+              "cashFlow": 4708
+            },
+            {
+              "year" : 2014,
+              "totalShare": 462,
+              "divident": 0,
+              "Obligations": 43764,
+              "Capital": 10741,
+              "totalAssets" : 54505,
+              "revenue": 88988,
+              "netProfit": -241,
+              "cashFlow": 6332
+            },
+            {
+              "year" : 2015,
+              "totalShare": 477,
+              "divident": 0,
+              "Obligations": 51363,
+              "Capital": 13384,
+              "totalAssets" : 64747,
+              "revenue": 107006,
+              "netProfit": 596,
+              "cashFlow": 9363
+            },
+            {
+              "year" : 2016,
+              "totalShare": 484,
+              "divident": 0,
+              "Obligations": 64117,
+              "Capital": 19285,
+              "totalAssets" : 83402,
+              "revenue": 135987,
+              "netProfit": 2371,
+              "cashFlow": 12527
+            },
+            {
+              "year" : 2017,
+              "totalShare": 493,
+              "divident": 0,
+              "Obligations": 103601,
+              "Capital": 27709,
+              "totalAssets" : 131310,
+              "revenue": 177866,
+              "netProfit": 3033,
+              "cashFlow": 18607
+            },
+            {
+              "year" : 2018,
+              "totalShare": 500,
+              "divident": 0,
+              "Obligations": 119099,
+              "Capital": 43549,
+              "totalAssets" : 162648,
+              "revenue": 232887,
+              "netProfit": 10073,
+              "cashFlow": 31766
+            },
+            {
+              "year" : 2019,
+              "totalShare": 504,
+              "divident": 0,
+              "Obligations": 163188,
+              "Capital": 62060,
+              "totalAssets" : 225248,
+              "revenue": 280522,
+              "netProfit": 11588,
+              "cashFlow": 40952
+            }
+          ]
+      },
+      {
+        "id": "BABA",
+        "title": "Alibaba",
+        "sector": "Communications",
+        "ideas": [
+          {
+  
+          }
+        ],
+        "indicators" : [ 
+          {
+            "year" : 2012,
+            "totalShare": 0,
+            "divident": 0,
+            "Obligations": 2032,
+            "Capital": 5464,
+            "totalAssets" : 7496,
+            "revenue": 3131,
+            "netProfit": 661,
+            "cashFlow": 1171
+          },
+          {
+            "year" : 2013,
+            "totalShare": 0,
+            "divident": 0,
+            "Obligations": 8492,
+            "Capital": 1779,
+            "totalAssets" : 10271,
+            "revenue": 5489,
+            "netProfit": 1357,
+            "cashFlow": 1803
+          },
+          {
+            "year" : 2014,
+            "totalShare": 0,
+            "divident": 0,
+            "Obligations": 11374,
+            "Capital": 6564,
+            "totalAssets" : 17938,
+            "revenue": 8583,
+            "netProfit": 3811,
+            "cashFlow": 5047
+          },
+          {
+            "year" : 2015,
+            "totalShare": 2500,
+            "divident": 0,
+            "Obligations": 15700,
+            "Capital": 25489,
+            "totalAssets" : 41189,
+            "revenue": 12302,
+            "netProfit": 3917,
+            "cashFlow": 6355
+          },
+          {
+            "year" : 2016,
+            "totalShare": 2562,
+            "divident": 0,
+            "Obligations": 17754,
+            "Capital": 38726,
+            "totalAssets" : 56480,
+            "revenue": 15910,
+            "netProfit": 11241,
+            "cashFlow": 7847
+          },
+          {
+            "year" : 2017,
+            "totalShare": 2573,
+            "divident": 0,
+            "Obligations": 26563,
+            "Capital": 47127,
+            "totalAssets" : 73690,
+            "revenue": 23531,
+            "netProfit": 6493,
+            "cashFlow": 10863
+          },
+          {
+            "year" : 2018,
+            "totalShare": 2610,
+            "divident": 0,
+            "Obligations": 44161,
+            "Capital": 69885,
+            "totalAssets" : 114046,
+            "revenue": 37825,
+            "netProfit": 9687,
+            "cashFlow": 15579
+          },
+          {
+            "year" : 2019,
+            "totalShare": 2523,
+            "divident": 0,
+            "Obligations": 52096,
+            "Capital": 91685,
+            "totalAssets" : 143781,
+            "revenue": 56163,
+            "netProfit": 13098,
+            "cashFlow": 17694
+          }
+        ]
+      },
+      {
+        "id": "AVGO",
+        "title": "Broadcom",
+        "sector": "Technology",
+        "ideas": [
+          {
+          }
+        ],
+        "indicators" : [ 
+          {
+            "year" : 2012,
+            "totalShare": 250,
+            "divident": 0.548,
+            "Obligations": 443,
+            "Capital": 2419,
+            "totalAssets" : 2862,
+            "revenue": 2364,
+            "netProfit": 563,
+            "cashFlow": 768
+          },
+          {
+            "year" : 2013,
+            "totalShare": 252,
+            "divident": 0.768,
+            "Obligations": 529,
+            "Capital": 2886,
+            "totalAssets" : 3415,
+            "revenue": 2520,
+            "netProfit": 552,
+            "cashFlow": 792
+          },
+          {
+            "year" : 2014,
+            "totalShare": 267,
+            "divident": 1.064,
+            "Obligations": 7248,
+            "Capital": 3243,
+            "totalAssets" : 10491,
+            "revenue": 4269,
+            "netProfit": 263,
+            "cashFlow": 758
+          },
+          {
+            "year" : 2015,
+            "totalShare": 281,
+            "divident": 1.452,
+            "Obligations": 5801,
+            "Capital": 4714,
+            "totalAssets" : 10515,
+            "revenue": 6824,
+            "netProfit": 1364,
+            "cashFlow": 2394
+          },
+          {
+            "year" : 2016,
+            "totalShare": 366,
+            "divident": 2.049,
+            "Obligations": 28090,
+            "Capital": 21876,
+            "totalAssets" : 49966,
+            "revenue": 13240,
+            "netProfit": -1739,
+            "cashFlow": 2808
+          },
+          {
+            "year" : 2017,
+            "totalShare": 421,
+            "divident": 4.145,
+            "Obligations": 31232,
+            "Capital": 23186,
+            "totalAssets" : 54418,
+            "revenue": 17636,
+            "netProfit": 1692,
+            "cashFlow": 7335
+          },
+          {
+            "year" : 2018,
+            "totalShare": 431,
+            "divident": 6.956,
+            "Obligations": 23467,
+            "Capital": 26657,
+            "totalAssets" : 50124,
+            "revenue": 20484,
+            "netProfit": 12259,
+            "cashFlow": 9065
+          },
+          {
+            "year" : 2019,
+            "totalShare": 419,
+            "divident": 10.107,
+            "Obligations": 42523,
+            "Capital": 24970,
+            "totalAssets" : 67493,
+            "revenue": 22597,
+            "netProfit": 2724,
+            "cashFlow": 9580
+          }
+        ]
+      },
+      {
+        "id": "DG",
+        "title": "DollarGeneral",
+        "sector": "Consumer Cyclical",
+        "ideas": [
+          {
+          }
+        ],
+        "indicators" : [ 
+          {
+            "year" : 2012,
+            "totalShare": 334,
+            "divident": 0,
+            "Obligations": 5382,
+            "Capital": 4985,
+            "totalAssets" : 10367,
+            "revenue": 16022,
+            "netProfit": 953,
+            "cashFlow": 1221
+          },
+          {
+            "year" : 2013,
+            "totalShare": 323,
+            "divident": 0,
+            "Obligations": 5465,
+            "Capital": 5402,
+            "totalAssets" : 10867,
+            "revenue": 17504,
+            "netProfit": 1025,
+            "cashFlow": 1315
+          },
+          {
+            "year" : 2014,
+            "totalShare": 305,
+            "divident": 0,
+            "Obligations": 5499,
+            "Capital": 2710,
+            "totalAssets" : 11209,
+            "revenue": 18910,
+            "netProfit": 1065,
+            "cashFlow": 1422
+          },
+          {
+            "year" : 2015,
+            "totalShare": 295,
+            "divident": 0.876,
+            "Obligations": 5880,
+            "Capital": 5378,
+            "totalAssets" : 11258,
+            "revenue": 20369,
+            "netProfit": 1165,
+            "cashFlow": 1575
+          },
+          {
+            "year" : 2016,
+            "totalShare": 282,
+            "divident": 0.997,
+            "Obligations": 6266,
+            "Capital": 5406,
+            "totalAssets" : 11672,
+            "revenue": 21987,
+            "netProfit": 1251,
+            "cashFlow": 1676
+          },
+          {
+            "year" : 2017,
+            "totalShare": 273,
+            "divident": 1.036,
+            "Obligations": 6391,
+            "Capital": 6126,
+            "totalAssets" : 12517,
+            "revenue": 23471,
+            "netProfit": 1539,
+            "cashFlow": 1853
+          },
+          {
+            "year" : 2018,
+            "totalShare": 266,
+            "divident": 1.152,
+            "Obligations": 6787,
+            "Capital": 6417,
+            "totalAssets" : 13204,
+            "revenue": 25625,
+            "netProfit": 1589,
+            "cashFlow": 2180
+          },
+          {
+            "year" : 2019,
+            "totalShare": 258,
+            "divident": 1.27,
+            "Obligations": 16123,
+            "Capital": 6703,
+            "totalAssets" : 22826,
+            "revenue": 27754,
+            "netProfit": 1713,
+            "cashFlow": 2323
+          }
+        ]
+      },
+      {
+        "id": "EXR",
+        "title": "Extra Space Storage",
+        "sector": "Financial",
+        "ideas": [
+          {
+          }
+        ],
+        "indicators" : [ 
+          {
+            "year" : 2012,
+            "totalShare": 103,
+            "divident": 0.857,
+            "Obligations": 1678,
+            "Capital": 1545,
+            "totalAssets" : 3223,
+            "revenue": 409,
+            "netProfit": 117,
+            "cashFlow": 190
+          },
+          {
+            "year" : 2013,
+            "totalShare": 113,
+            "divident": 1.443,
+            "Obligations": 2045,
+            "Capital": 1932,
+            "totalAssets" : 3977,
+            "revenue": 521,
+            "netProfit": 172,
+            "cashFlow": 259
+          },
+          {
+            "year" : 2014,
+            "totalShare": 121,
+            "divident": 1.736,
+            "Obligations": 2470,
+            "Capital": 1912,
+            "totalAssets" : 4382,
+            "revenue": 647,
+            "netProfit": 178,
+            "cashFlow": 327
+          },
+          {
+            "year" : 2015,
+            "totalShare": 123,
+            "divident": 2.137,
+            "Obligations": 3699,
+            "Capital": 2373,
+            "totalAssets" : 6072,
+            "revenue": 782,
+            "netProfit": 189,
+            "cashFlow": 358
+          },
+          {
+            "year" : 2016,
+            "totalShare": 125,
+            "divident": 2.943,
+            "Obligations": 4495,
+            "Capital": 2596,
+            "totalAssets" : 7091,
+            "revenue": 992,
+            "netProfit": 366,
+            "cashFlow": 531
+          },
+          {
+            "year" : 2017,
+            "totalShare": 134,
+            "divident": 2.933,
+            "Obligations": 4737,
+            "Capital": 2724,
+            "totalAssets" : 7461,
+            "revenue": 1105,
+            "netProfit": 479,
+            "cashFlow": 626
+          },
+          {
+            "year" : 2018,
+            "totalShare": 133,
+            "divident": 3.195,
+            "Obligations": 5063,
+            "Capital": 2785,
+            "totalAssets" : 7848,
+            "revenue": 1197,
+            "netProfit": 415,
+            "cashFlow": 662
+          },
+          {
+            "year" : 2019,
+            "totalShare": 136,
+            "divident": 3.368,
+            "Obligations": 5611,
+            "Capital": 2922,
+            "totalAssets" : 8533,
+            "revenue": 1308,
+            "netProfit": 420,
+            "cashFlow": 707
+          }
+        ]
+      }
+    ],
+  
+    "CompanyRus": [
+      {
+        "id": "asdasd",
+          "title": "ФосАгро",
+          "sector": "pharmaceuticals",
+          "ideas": [
+            {
+              "id": 2,
+              "idea": "защитный сектор",
+              "divers": "Рост цен на удобрения, снижение производства в Китае, девальвация",
+              "price": 2050,
+              "upSide": 3500,
+              "downSide": 1500,
+              "rating": 8
+            }
+          ],
+          "indicators" : [ 
+            {
+              "year" : 2012,
+              "totalShare": 0,
+              "divident": 0,
+              "Obligations": 23645,
+              "Capital": 3363,
+              "totalAssets" : 27008,
+              "revenue": 18380,
+              "netProfit": 5275,
+              "cashFlow": 6966
+            },
+            {
+              "year" : 2013,
+              "totalShare": 1604,
+              "divident": 1.593,
+              "Obligations": 24706,
+              "Capital": 4492,
+              "totalAssets" : 29198,
+              "revenue": 18790,
+              "netProfit": 4128,
+              "cashFlow": 5609
+            },
+            {
+                  "year" : 2014,
+                  "totalShare": 1610,
+                  "divident": 1.653,
+                  "Obligations": 25771,
+                  "Capital": 1742,
+                  "totalAssets" : 27513,
+                  "revenue": 19960,
+                  "netProfit": 1774,
+                  "cashFlow": 4337
+            }
+          ]
+        }
+          ]
+
+  }
