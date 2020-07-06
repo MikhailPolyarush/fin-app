@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import WithDataService from '../../components/hoc';
 import Spinner from '../spinner';
 import ItemsList from '../items-list';
-import {companyListLoaded, companyListRequested, companyListError} from '../../actions';
+import {companyListLoaded, companyListRequested, companyListError, companySelected} from '../../actions';
 
 class ShapesUSA extends Component {
 
@@ -52,7 +52,8 @@ const mapDispatchToProps = {
 
     companyListLoaded,
     companyListRequested,
-    companyListError
+    companyListError,
+    companySelected
 }
 
 
