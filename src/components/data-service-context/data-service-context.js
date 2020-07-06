@@ -1,3 +1,6 @@
 import React from 'react';
 
-export const DataServiceContext = React.createContext();
+const dataServiceContext = React.createContext();
+
+
+export default dataServiceContext;

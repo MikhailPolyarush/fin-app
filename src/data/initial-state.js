@@ -1,4 +1,4 @@
-export const initialState = {
+ const initialState = {
     data: {
         companyList: [], // все компании
         isCompanyListloading: true, 
@@ -20,3 +20,5 @@ export const initialState = {
         isShowedAddCompanyStatsForm: false
     }
 }
+
+export default initialState;

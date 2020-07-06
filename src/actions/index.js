@@ -23,25 +23,25 @@ const companyListError = () => {
     };
 };
 
-const companySelected = (id) => {
+const companySelected = (selectedCompany) => {
 
     return {
 
         type: 'COMPANY_SELECTED',
-        payload: id
-
-    };
-};
-
-const companyLoaded = (selectedCompany) => {
-
-    return {
-
-        type: 'COMPANY_LOADED',
         payload: selectedCompany
 
     };
 };
+
+// const companyLoaded = (selectedCompany) => {
+
+//     return {
+
+//         type: 'COMPANY_LOADED',
+//         payload: selectedCompany
+
+//     };
+// };
 
 const companyRequested = () => {
 
@@ -68,7 +68,7 @@ export {
     companyListRequested,
     companyListError,
     companySelected,
-    companyLoaded,
+    // companyLoaded,
     companyRequested,
     companyError
 };

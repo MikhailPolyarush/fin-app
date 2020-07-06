@@ -1,6 +1,6 @@
 import initialState from '../data/initial-state';
 
-export const dataReducer = (state = initialState.data, action) => {
+ const dataReducer = (state = initialState.data, action) => {
 
     switch (action.type) {
 
@@ -52,3 +52,5 @@ export const dataReducer = (state = initialState.data, action) => {
     }
 
 }
+
+export default dataReducer;

@@ -1,3 +1,3 @@
-import DataServiceContext from './data-service-context';
+import dataServiceContext from './data-service-context';
 
-export default DataServiceContext;
+export default dataServiceContext;

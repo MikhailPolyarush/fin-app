@@ -1,42 +1,41 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import WithDataService from '../../components/hoc';
-import {companyLoaded, companyRequested, companyError, showAddCompanyForm, showStatistics} from '../../actions';
+import {companyListLoaded, companyListRequested, companyListError, companySelected} from '../../actions';
 import Spinner from '../spinner';
 import ItemsListItem from '../items-list-item';
 import './items-list.css';
 
 class ItemsList extends Component {
 
-    componentDidMount() {
+    // componentDidMount() {
 
-        const {companyLoaded, companyRequested, companyError, DataService} = this.props;
+    //     const {companyListLoaded, companyListRequested, companyListError, getData} = this.props;
 
-        companyRequested();
+    //     companyListRequested();
 
-        DataService.getFundsUSA()
-        .then(result => companyLoaded(result))
-        .catch(error => companyError());
-    }
+    //     this.props.getData()
+    //     .then(result => companyListLoaded(result))
+    //     .catch(error => companyListError());
 
-
-
+    // }
 
     render() {
 
-        const {data, loading, isShowedAddCompanyForm, showAddCompanyForm, isShowedCompanyStatistic, selectedItem} = this.props;
-        console.log(selectedItem);
+        const {data, companySelected} = this.props;
 
-        if (loading) {
-            return <Spinner/>
-        }
+
 
         return (
             <ul className="todo-list list-group">
                 <li className="list-group-item d-block">
                     { 
                         data.map(item => {
-                            return <ItemsListItem key={item.id} itemTitle={item.title} />
+
+                            return <ItemsListItem 
+                                        itemId={item.id} 
+                                        itemTitle={item.title}
+                                        onSelected={companySelected}/>
                         })
                     }
                 </li>
@@ -49,22 +48,17 @@ const mapStateToProps = (state) => {
 
     return {
 
-        data: state.company,
-        loading: state.loading,
-        error: state.error,
-        selectedItem: state.selectedItem,
-        isShowedAddCompanyForm: state.isShowedAddCompanyForm,
-        isShowedCompanyStatistic: state.isShowedCompanyStatistic
+        data: state.data.companyList,
+        selected: state.data.selectedItem
+
     }
 }
 
 const mapDispatchToProps = {
 
-    companyLoaded,
-    companyRequested,
-    companyError,
-    showAddCompanyForm,
-    showStatistics
+    companyListLoaded,
+    companySelected
+
 
 }
 
